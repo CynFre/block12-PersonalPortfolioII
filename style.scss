@@ -1,0 +1,66 @@
+@import "./partials/mixin";
+@import "./partials/variables";
+
+.header{
+    @include header;
+}
+
+.pageLinks{
+    @include pageLinks;
+}
+
+.background{
+   @include background;
+}
+h1{
+    color: $textColor1;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0%;
+}
+h2 {
+    padding: 25px;
+    margin: auto;
+}
+h3 {
+    padding: 0px 0px 0px 25px; 
+    margin: auto;
+}
+.headShot {
+    float: right;
+    border: 5px solid black;
+    border-style: double;
+    margin: 50px 250px 0px 0px;
+    padding: 25px; 
+}
+.mission {
+    clear: left;
+    padding: 50px;
+    margin: 100px 0px 0px 350px;
+}
+.inspiration {
+    clear: left;
+    padding: 50px;
+    margin: 100px 0px 0px 200px;
+}
+.quote{
+    font-family: cursive;
+}
+.text {
+    font-weight: bold;
+}
+.baker, .gardener, .manager {
+    @include sectionContent;
+}
+.portfolio {
+    @include portfolio;
+}
+.zoo, .produce, .books {
+    @include sectionContent2;
+}
+.portfolioText {
+    padding: 0px 300px;
+}
+.footer {
+    @include footer;
+}

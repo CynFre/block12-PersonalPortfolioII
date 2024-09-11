@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  background-color: lightblue;
+  color: blue;
+  margin: 0%;
+  padding: 0 5%;
+}
+
+.pageLinks a:link {
+  color: blue;
+  text-decoration: underline;
+}
+.pageLinks a:visited {
+  color: green;
+  text-decoration: none;
+}
+.pageLinks a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+.pageLinks a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.background {
+  background-image: url("./images/croppedBackground.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0%;
+}
+
+h1 {
+  color: blue;
+  font-size: 3vw;
+  text-align: center;
+  margin: 0%;
+}
+
+h2 {
+  padding: 25px;
+  margin: auto;
+}
+
+h3 {
+  padding: 0px 0px 0px 25px;
+  margin: auto;
+}
+
+.headShot {
+  float: right;
+  border: 5px solid black;
+  border-style: double;
+  margin: 50px 250px 0px 0px;
+  padding: 25px;
+}
+
+.mission {
+  clear: left;
+  padding: 50px;
+  margin: 100px 0px 0px 350px;
+}
+
+.inspiration {
+  clear: left;
+  padding: 50px;
+  margin: 100px 0px 0px 200px;
+}
+
+.quote {
+  font-family: cursive;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.baker, .gardener, .manager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  background-color: azure;
+  border-radius: 15px;
+  width: 75%;
+  padding: 25px;
+  margin: 25px 25px 0px 150px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+
+.zoo, .produce, .books {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: azure;
+  margin: 25px;
+}
+
+.portfolioText {
+  padding: 0px 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  width: 100%;
+  margin: 0%;
+}
+.form {
+  text-align: center;
+  
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <p class="name">Cynthia Freund</p>
+        <nav class="pageLinks">
+        <a href="./index.html">Home</a> |
+        <a href="./about.html">About</a> |
+        <a href="./portfolio.html">Portfolio</a> |
+        <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main  class="background">
+        <h1>Contact Me</h1>
+        <br> <br>
+        <form class="form"
+        target="_blank" 
+        action="./formSubmitted.html" 
+        method="get">
+            <label for = "text">Name:</label>
+            <input type = "text" value="name"/>
+            <br> <br>
+            <label for = "text">Email:</label>
+            <input type = "email" value="email" required/>
+            <br> <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <br><br>
+            <input type="submit" value="Submit"/>
+            <br><br>
+            <br><br>
+        </form>
+
+    </main>
+    <footer class="footer">
+        <a href="#"><img src="./images/facebook.png" alt="facebook logo" width="40px"/></a>
+        <a href="https://www.linkedin.com/in/cynthia-freund-59958a37/"><img src="./images/linkedIn.png" alt="linkedIn logo" width = "30px"/></a>
+        <a href="#"><img src="./images/twitter.png" alt="twitter logo" width="40px"/></a>
+    </footer> 
+
+    <script src="./javascript.js"></script>
+</body>
+</html>

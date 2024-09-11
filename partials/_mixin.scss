@@ -1,0 +1,57 @@
+@mixin header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color: lightblue;
+    color: blue;
+    margin: 0%;
+    padding: 0 5%;
+}
+@mixin pageLinks {
+    a:link {color: blue; text-decoration: underline;}
+    a:visited {color: green; text-decoration: none;}
+    a:hover {color: hotpink; text-decoration: none;}
+    a:active {color: white; text-decoration: none;}
+}
+@mixin background {
+    background-image: url($blueImagePath);
+    background-size: cover;
+    background-position: center; 
+    margin: 0%;
+}
+@mixin sectionContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    background-color: azure;
+    border-radius: 15px;
+    width: 75%;
+    padding: 25px;
+    margin: 25px 25px 0px 150px;    
+}
+@mixin portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+@mixin sectionContent2 {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: azure;
+    margin: 25px;
+}
+@mixin footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    width: 100%;
+    margin: 0%;
+}
+
